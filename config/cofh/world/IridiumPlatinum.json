@@ -1,0 +1,47 @@
+{
+	"populate": {
+		"platinum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "thermalfoundation:ore",
+				"metadata": 6
+				},
+				"material": "stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 23,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"iridium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 7
+				},
+				"material": "stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 16,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
